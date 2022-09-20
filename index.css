@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Ubuntu:wght@500;700&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppins",sans-serif;
+text-decoration: none;
+}
+.pfolio{width: 100%;
+    height:100vh;
+    background:url(snipit.png);
+    background-position:centre;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;}
+
+
+
+    .pfolio .card{width:28vw;
+
+        color: rgba(21, 22, 22, 0.815);
+        display: flex;
+        flex-direction: column;
+        
+        border: 1px solid rgba(255,255,255,0.3);
+        background: rgba(255,255,255,0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+        backdrop-filter: blur(5px);
+        height: 86vh;
+        justify-content: center;
+        align-items: center;
+        transition:0.3s ease-in-out;}
+
+
+        .pfolio .card .image{
+        
+          
+        }
+        .pfolio .card .image img{height: 38vh;
+            width: 14vw;
+            border-radius: 50%;}
+
+
+            .pfolio .card .links ion-icon {font-size: 2.2rem;
+                color: aliceblue;
+                padding: 9px;
+            transition: 0.3s ease-in-out;}
+                .pfolio .card .links ion-icon:hover{font-size: 2.1rem;
+                    color: 	#1DA1F2;
+                transition: 0.3s ease-in-out;
+           
+            box-shadow: 0px 2px #808080d4;
+border-radius: 50%;;}
+
+            .pfolio .card  button {border-radius: 35px;
+               
+                
+            ;}
+
+            .pfolio .card  button .btn{  
+ 
+                font-size:1.0 rem;
+                font-weight: 500;
+                background: white;
+                color: aqua;
+                padding: 13px 7px;
+               border-radius: 35px;
+                text-align: center;
+               border-style: none;
+               box-shadow: 2px 5px #808080d4;
+              }
+
+              @media screen  and (max-width:500px) {
+.pfolio{}
+
+    .pfolio .card{width: 88%;
+        height: 72vh;
+    }
+
+    .pfolio .card .image img {
+        height: 30vh;
+        width: 46vw;}
+}
